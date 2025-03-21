@@ -14,4 +14,8 @@ void input(){
             cout << "\nArray yang anda masukkan maksimal 20 element \n";
         }
     }
+    cout << endl;
+    cout << "===============";
+    cout << "Masukkaan Element Array";
+    cout << "===============";
 }
