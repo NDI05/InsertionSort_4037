@@ -6,7 +6,7 @@ int n;
 
 void input(){
     while (true){
-        cout << "Masukkan Jumlah Data Array: ":
+        cout << "Masukkan Jumlah Data Array: ";
         cin >> n;
         if (n <= 20){
             break;
@@ -15,19 +15,20 @@ void input(){
         }
     }
     cout << endl;
-    cout << "===============";
-    cout << "Masukkaan Element Array";
-    cout << "===============";
-    for (int i=0l i<n; i++){
+    cout << "=======================" << endl;
+    cout << "Masukkaan Element Array" << endl;
+    cout << "=======================" << endl;
+    for (int i=0; i<n; i++){
         cout << "Data ke-" << (i+1) << ": ";
         cin >> arr[i];
     }
 }
 
 void insertionSort(){
-    int temp = arr[i];
+    int temp;
+    int j, i;
     j = i -1;
-    while (j >=0 && arr[j] > tempt){
+    while (j >=0 && arr[j] > temp){
         arr[j+1] = arr[j];
         j--;
     }
@@ -36,11 +37,11 @@ void insertionSort(){
 
 void display(){
     cout << endl;
-    cout << "===============================";
-    cout << "Total Pass =" << n-1 << end;
-    cout << "===============================";
-    cout << "Eelemt Array yang telah tersusun";
-    cout << "===============================";
+    cout << "===============================" << endl;
+    cout << "Total Pass =" << n-1 << endl;
+    cout << "===============================" << endl;
+    cout << "Eelemt Array yang telah tersusun" << endl;
+    cout << "===============================" << endl;
 
     for (int j=0; j<n; j++){
         cout << arr[j] << endl;
