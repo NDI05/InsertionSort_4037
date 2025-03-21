@@ -25,5 +25,6 @@ void input(){
 }
 
 void insertionSort(){
-    
+    int temp = arr[i];
+    j = i -1;
 }
