@@ -18,4 +18,8 @@ void input(){
     cout << "===============";
     cout << "Masukkaan Element Array";
     cout << "===============";
+    for (int i=0l i<n; i++){
+        cout << "Data ke-" << (i+1) << ": ";
+        cin >> arr[i];
+    }
 }
